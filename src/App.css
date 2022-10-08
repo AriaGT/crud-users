@@ -1,0 +1,53 @@
+.App {
+  padding-bottom: 60px;
+}
+.App__title {
+  color: #555A88;
+}
+.users-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.form-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0001;
+  backdrop-filter: blur(2px);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1;
+}
+.form__disable {
+  display: none;
+}
+.App__container-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.App__btn {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #555A88;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: filter 100ms ease;
+}
+.App__btn:hover {
+  filter: brightness(1.2);
+  transition: filter 100ms ease;
+}
